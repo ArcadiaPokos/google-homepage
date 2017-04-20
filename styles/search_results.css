@@ -1,0 +1,240 @@
+
+/*Page Name: Google Search Results Page
+Description: Assignment for The Odin Project
+Author: Tyler Pokos*/
+
+
+/* GENERAL STYLES */
+html {
+    display: block;
+}
+
+body {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    font-family: small arial, sans-serif;
+    font-size: 12px;
+}
+/* END GENERAL STYLES */
+
+
+
+/* Header STYLES */
+#Header {
+    background-color: #fafafa;
+    width: 100%;
+    min-width: 900px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+#Header a {
+    text-decoration: none;
+    color: #666;
+}
+
+#Header ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#Header li {
+    display: inline-block;
+    text-align: center;
+}
+
+#Header input {
+    display: block;
+    width: 550px;
+    height: 40px;
+    padding: 0px 5px 0px 10px;
+    box-shadow: 1px 5px 7px -4px gray;
+    border: 1px solid #ebebeb;
+}
+
+#Float-Left {
+    float: left;
+    margin: 15px 0px 0px 15px;
+}
+
+#Float-Left div {
+    float: left;
+    margin-right: 15px;
+}
+
+#Float-Left div img {
+    position: relative;
+    top: 4px;
+}
+
+#Float-Right {
+    float: right;
+    margin: 15px 15px 0px 0px;
+}
+
+#Float-Right div {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    text-align: center;
+    top: 5px;
+    float: left;
+    margin-right: 10px;
+}
+
+#Float-Right div:first-child img {
+    padding-top: 2px;
+}
+
+#Float-Right div:last-child img {
+    border-radius: 50%;
+}
+
+#Navigation {
+    width: auto;
+    height: auto;
+    padding-top: 25px;
+    margin-left: 145px;
+    position: relative;
+    clear: both;
+}
+
+#Navigation li {
+    height: 30px;
+    width: 55px;
+}
+
+#Navigation a:hover {
+    color: black;
+}
+
+#Navigation ul li:nth-child(6) {
+    padding-right: 100px;
+}
+/* END Header STYLES */
+
+/* MAIN CONTENT */
+
+/* Main-Content */
+#Main-Content {
+    /*Position*/
+    margin-left: 165px;
+    /*Display*/
+    display: block;
+    /*Formatting*/
+    color: #666;
+    font-size: 11.5px;
+}
+
+#Main-Content div {
+    margin-top: 25px;
+}
+
+#Main-Content a {
+    text-decoration: none;
+    font-size: 15.5px;
+    color: #1a0dab;
+}
+
+#Main-Content p {
+    margin: 2px 0px 2px 0px;
+}
+
+#Main-Content a:hover {
+    text-decoration: underline;
+}
+
+.Web-Url {
+    color: #006621;
+}
+
+#Main-Content #Related-Searches a {
+    /*Position*/
+    padding-top: 8px;
+    /*Display*/
+    display: block;
+    /*Formatting*/
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+#Related-Searches div {
+    /*Position*/
+    margin: 0px 30px 0px 0px;
+    /*Display*/
+    display: inline-block;
+}
+/* End Main-Content*/
+
+/* Result-Nav */
+
+table {
+    border-collapse: collapse;
+    text-align: left;
+    margin: 30px auto 30px;
+}
+
+.Column {
+    height: 40px;
+    display: block;
+}
+
+#Nav td {
+    text-align: center;
+}
+
+#Nav a {
+    text-decoration: none;
+    text-align: center;
+    color: #4285f4;
+}
+
+#Nav a:hover {
+    text-decoration: underline;
+}
+/* End Results-Nav */
+
+/* END MAIN CONTENT */
+
+/* FOOTER CONTENT */
+
+#Footer {
+    /*Position*/
+    position: relative;
+    bottom: 0;
+    /*Display*/
+    /*Formatting*/
+    height: 50px;
+    background-color: #fafafa;
+    width: 100%;
+    min-width: 900px;
+    border-top: 1px solid #ebebeb;
+}
+
+#Footer div {
+    margin: 20px 0px 0px 165px;
+}
+
+#Footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+#Footer li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+#Footer a {
+    text-decoration: none;
+    color: #666;
+    text-align: left;
+}
+
+#Footer a:hover {
+    text-decoration: underline;
+}
+
+
+/* END FOOTER CONTENT */
